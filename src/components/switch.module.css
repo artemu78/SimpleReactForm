@@ -1,0 +1,28 @@
+.switchContainer {
+    display: flex;
+    width: 100%;
+}
+
+.toggleOn {
+font-size: 43pt;
+color: lightgreen;
+margin-right: 10px;
+}
+
+.toggleOff {
+    color: lightgray;
+    font-size: 43pt;
+    margin-right: 10px;
+    transform: scaleX(-1);
+}
+
+.switchText {
+display: flex;
+width: 100px;
+font-size: 16px;
+}
+
+.switchTextInner {
+margin: auto;
+
+}

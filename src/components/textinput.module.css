@@ -1,0 +1,32 @@
+.textinputContainer {
+    border: 1px solid gray;
+    border-radius: 4px;
+    height: 34px;
+    width: 266px;
+    text-align: left;
+    padding: 8px 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textinputLabelBig {
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.textinputLabelSmall {
+    font-size: 10px;
+    color: #A0A0A0;
+    vertical-align: top;
+}
+
+.textinputControlHidden {
+    display: none;
+}
+
+.textinputControlVisible {
+    border: none;
+    
+}
